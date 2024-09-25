@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">art space</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="rainy_day">Rainy Day</string>
+    <string name="sunny">Sunny</string>
+    <string name="nature_heals">Nature Heals</string>
+</resources>
