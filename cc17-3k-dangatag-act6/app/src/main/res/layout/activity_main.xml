@@ -1,0 +1,1958 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="HardcodedText">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_30_days_of_movies"
+            android:textSize="35sp"/>
+
+
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/day_1"
+                android:textSize="17sp"
+                android:layout_marginStart="165dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/witch"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="16dp"
+                android:text="@string/the_witch_part_1"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="16dp"
+                android:text="@string/when_she_was_young_ja_yoon_escaped_from_a_government_facility_but_lost_all_her_memory_10_years_later_when_she_appears_on_a_nationally_televised_competition_to_win_money_for_her_family_her_life_is_turned_upside_down_by_faces_from_her_past"
+                android:textColor="#777777"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/rate_this_movie"
+                android:textColor="#777777"
+                android:textSize="12sp" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_marginStart="75dp"
+                android:progressTint="@android:color/holo_orange_dark"
+                android:scaleX="0.6"
+                android:scaleY="0.6" />
+
+        </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/day_2"
+                android:textSize="17sp"
+                android:layout_marginStart="165dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:contentDescription="@string/todoo"
+                android:src="@drawable/witch2"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="16dp"
+                android:text="@string/the_witch_part_2"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="16dp"
+                android:text="@string/after_a_girl_emerges_as_the_sole_survivor_of_a_bloody_raid_on_the_research_facility_behind_the_top_secret_witch_program_she_is_rescued_by_a_pair_of_civilians_who_soon_realise_that_more_danger_lies_ahead"
+                android:textColor="#777777"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/rate_this_movie"
+                android:textColor="#777777"
+                android:textSize="12sp" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_marginStart="75dp"
+                android:progressTint="@android:color/holo_orange_dark"
+                android:scaleX="0.6"
+                android:scaleY="0.6" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/day_3"
+                android:textSize="17sp"
+                android:layout_marginStart="165dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:contentDescription="@string/to"
+                android:src="@drawable/priest"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="16dp"
+                android:text="@string/the_priest_2011"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="16dp"
+                android:text="@string/in_a_society_ravaged_by_centuries_of_war_between_humans_and_vampires_a_legendary_warrior_priest_paul_bettany_a_veteran_of_the_last_conflict_lives_in_an_enclosed_city_ruled_by_the_church_when_a_murderous_pack_of_vampires_kidnaps_his_niece_lily_collins_the_priest_breaks_his_sacred_vows_and_sets_out_to_rescue_her_before_the_bloodsuckers_put_the_bite_on_her_joining_him_on_his_quest_are_his_niece_s_boyfriend_cam_gigandet_and_a_former_priestess_maggie_q_with_supernatural_fighting_skills"
+                android:textColor="#777777"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/rate_this_movie"
+                android:textColor="#777777"
+                android:textSize="12sp" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_marginStart="75dp"
+                android:progressTint="@android:color/holo_orange_dark"
+                android:scaleX="0.6"
+                android:scaleY="0.6" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/day_4"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie4"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/the_settlers"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/in_chile_three_horsemen_are_paid_to_protect_a_vast_estate_accompanying_a_british_soldier_and_an_american_mercenary_is_a_mixed_race_sniper_who_realizes_that_his_true_mission_is_to_kill_the_indigenous_population"
+                    android:textColor="#777777"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/day_5"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie5"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/the_bee_keeper"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/one_man_s_brutal_campaign_for_vengeance_takes_on_national_stakes_after_it_s_revealed_he_s_a_former_operative_of_a_powerful_and_clandestine_organization_known_as_beekeepers"
+                    android:textColor="#777777"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/day_6"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie6"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/twisters"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/haunted_by_a_devastating_encounter_with_a_tornado_kate_cooper_gets_lured_back_to_the_open_plains_by_her_friend_javi_to_test_a_groundbreaking_new_tracking_system_she_soon_crosses_paths_with_tyler_owens_a_charming_but_reckless_social_media_superstar_who_thrives_on_posting_his_storm_chasing_adventures_as_storm_season_intensifies_kate_tyler_and_their_competing_teams_find_themselves_in_a_fight_for_their_lives_as_multiple_systems_converge_over_central_oklahoma"
+                    android:textColor="#777777"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/day7"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie7"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/robin_hood"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/after_returning_home_to_england_aristocrat_robin_of_loxley_learns_that_the_evil_sheriff_of_nottingham_has_seized_his_family_estate_he_soon_joins_forces_with_friar_tuck_and_little_john_a_fierce_arabian_warrior_who_wants_to_put_an_end_to_the_crusades_armed_with_arrows_and_dubbed_robin_hood_loxley_leads_a_band_of_oppressed_rebels_in_a_daring_plan_to_rob_the_sheriff_of_his_money_and_take_away_his_power"
+                    android:textColor="#777777"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/day_8"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie8"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/cabrini"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/italian_immigrant_francesca_cabrini_arrives_in_1889_new_york_city_and_is_greeted_by_disease_crime_and_impoverished_children_cabrini_sets_off_on_a_daring_mission_to_convince_the_hostile_mayor_to_secure_housing_and_healthcare_for_society_s_most_vulnerable_with_broken_english_and_poor_health_cabrini_uses_her_entrepreneurial_mind_to_build_an_empire_of_hope_unlike_anything_the_world_had_ever_seen"
+                    android:textColor="#777777"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/day_9"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie9"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/the_watchers"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/a_28_year_old_artist_gets_stranded_in_an_expansive_untouched_forest_in_western_ireland_finding_shelter_she_unknowingly_becomes_trapped_alongside_three_strangers_who_are_stalked_by_mysterious_creatures_every_night"
+                    android:textColor="#777777"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/day_10"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie10"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/last_voyage_of_the_demeter"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/the_crew_of_the_merchant_ship_demeter_sets_sail_from_carpathia_to_london_to_deliver_a_cargo_of_50_unmarked_wooden_crates_however_they_soon_discover_they_re_not_alone_as_dracula_s_unholy_presence_turns_the_trip_into_a_nightmarish_fight_for_survival"
+                    android:textColor="#777777"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/day_11"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie11"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/out_of_darkness"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/about_45_000_years_ago_a_desperate_band_of_early_humans_finds_a_new_land_to_settle_in_as_they_start_to_realize_that_something_monstrous_is_hunting_them_down_they_must_confront_a_horrifying_danger_that_they_never_could_have_imagined"
+                    android:textColor="#777777"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/day_12"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie12"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/finestkind"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/two_brothers_from_opposite_sides_of_the_tracks_are_reunited_as_adults_desperate_circumstances_force_them_into_a_deal_with_an_organized_crime_syndicate_in_boston_and_a_young_woman_gets_caught_in_the_middle"
+                    android:textColor="#777777"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 13"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie13"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/rumble_through_the_dark"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="A desperate, bare-knuckle cage fighter battles to save his family home against the strongest of foes and the longest of odds."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 14"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie14"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="The Good Mother"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="After the murder of her estranged son, a journalist forms an unlikely alliance with his pregnant girlfriend to track down those responsible. Together, they confront a world of drugs and corruption in the underbelly of a small city."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 15"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie15"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Missing"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="When her mother disappears while on vacation in Colombia with her new boyfriend, June's search for answers is hindered by international red tape. Stuck thousands of miles away in Los Angeles, June creatively uses all the latest technology at her fingertips to try and find her before it's too late. However, as she digs ever deeper, her digital sleuthing soon raises more questions than answers."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 16"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie16"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Sisu"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="During the last days of World War II, a solitary prospector crosses paths with Nazis on a scorched-earth retreat in northern Finland. When the soldiers decide to steal his gold, they quickly discover they just tangled with no ordinary miner."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 17"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie17"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="The Spy Gone North"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="In 1993, a South Korean army major goes undercover as a businessman to infiltrate a North Korean nuclear facility."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 18"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie18"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Inside"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="A high-end art thief becomes trapped inside a luxury, high-tech penthouse in New York's Times Square after his heist doesn't go as planned. Locked inside with nothing but priceless works of art, he must use all his cunning and invention to survive."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 19"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie19"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="A Man Called Otto"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="When a lively young family moves in next door, grumpy widower Otto Anderson meets his match in a quick-witted, pregnant woman named Marisol, leading to an unlikely friendship that turns his world upside down."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 20"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie20"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Jung_E"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="In a post-apocalyptic near-future, a researcher at an AI lab leads the effort to end a civil war by cloning the brain of a heroic soldier -- her mother."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 21"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie21"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="The Menu"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Shocking surprises await a couple when they travel to a coastal island to sample a chef's lavish menu at an exclusive restaurant."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 22"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie22"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Emancipation"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Peter, a slave, flees a plantation in Louisiana after he was whipped within an inch of his life. He has to outwit cold-blooded hunters and the unforgiving swamps of Louisiana on a torturous journey north."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 23"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie23"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="The System"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="After a drug bust, a former marine is recruited by authorities to go under cover in a notoriously dangerous prison. After discovering an underground fight ring, he must fight to stay alive and take down the corrupt system."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 24"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie24"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="The Last Song"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Unruly New York teen Ronnie Miller is angered to learn that she and younger brother Jonah are being sent to stay with their father for the summer. The talented young pianist is already grappling with her mother over her refusal to attend the prestigious Juilliard music school, and is in no mood to spend the holidays away from her friends in a small Southern beach town."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 25"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie25"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Cause Away"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Lynsey, a U.S. soldier, experiences a traumatic brain injury during her tour in Afghanistan which forces her to return home. She struggles to return to her daily life with her mother as she waits for her eventual redeployment."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 26"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie26"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="The Good Nurse"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Nurse Amy Loughren is shocked when Charlie Cullen, one of her colleagues, is foound responsible for the murder of dozens of patients over a period of sixteen years, across two states and nine hospitals, without being charged."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 27"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie27"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Lou"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="A storm rages and a young girl is kidnapped. Her mother teams up with the mysterious woman next door to pursue the kidnapper. Together they embark on a journey that tests their limits and exposes shocking secrets from their pasts."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 28"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie28"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Section 8"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Sentenced to prison for avenging the murder of his family, a former soldier gets a second chance when a shadowy government agency recruits him for an assignment. However, he soon realizes that the very people who freed him are not what they seem."
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 30"
+                    android:textSize="17sp"
+                    android:layout_marginStart="165dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/to"
+                    android:src="@drawable/movie30"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Samaritan"
+                    android:textSize="20sp"
+                    tools:ignore="TooManyViews" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Thirteen year old Sam Cleary suspects that his mysteriously reclusive neighbor Mr. Smith is actually the legendary vigilante Samaritan, who was reported dead 20 years ago. With crime on the rise and the city on the brink of chaos, Sam makes it his mission to coax his neighbor out of hiding to save the city from ruin.
+
+"
+                    android:textColor="#777777"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rate_this_movie"
+                    android:textColor="#777777"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
