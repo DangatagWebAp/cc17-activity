@@ -15,12 +15,6 @@ class Cafe : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fragment_cafe)
 
-        cityCard = findViewById(R.id.foam)
-
-        cityCard.setOnClickListener {
-            val intent = Intent(this, Foam::class.java)
-            startActivity(intent)
-        }
 
     }
 }
