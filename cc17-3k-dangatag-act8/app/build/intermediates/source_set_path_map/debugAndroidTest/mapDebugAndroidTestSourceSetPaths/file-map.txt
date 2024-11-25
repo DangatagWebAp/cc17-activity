@@ -1,0 +1,6 @@
+com.example.bookshelf.test.app-tracing-1.2.0-0 C:\Users\rheni\.gradle\caches\transforms-4\14cbbbe178c71a0483b619c829447204\transformed\tracing-1.2.0\res
+com.example.bookshelf.test.app-core-1.6.1-1 C:\Users\rheni\.gradle\caches\transforms-4\a0e009d1842d236018eb742a6b3187ee\transformed\core-1.6.1\res
+com.example.bookshelf.test.app-androidTest-2 C:\Users\rheni\BookShelf\app\build\generated\res\resValues\androidTest\debug
+com.example.bookshelf.test.app-mergeDebugAndroidTestResources-3 C:\Users\rheni\BookShelf\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.bookshelf.test.app-mergeDebugAndroidTestResources-4 C:\Users\rheni\BookShelf\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.bookshelf.test.app-debugAndroidTest-5 C:\Users\rheni\BookShelf\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
